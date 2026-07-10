@@ -2,4 +2,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+nav {
+    position: sticky;
+    background: rgb(255, 249, 249);
+    top: 0;
+    padding: 1.46rem 0;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    width: 100%;
+
+    margin-inline: auto;
+}
+
+.nav_logo {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logo_container {
+    display: flex;
+    gap: .5rem
+}
+
+#DEVCONF_2026 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: "Arimo", sans-serif;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+
+    font-family: "Inter", sans-serif;
+}
+
+
+.nav_links li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav_links li a:hover {
+    color: #1D4ED8;
+    transform: scale(1.08);
+}
+
+.register_btn {
+    padding: 0.65rem 1.65rem;
+    border-radius: 0.45rem;
+    border: none;
+
+    color: white;
+    font-weight: 600;
+
+    background: #1D4ED8;
 }
