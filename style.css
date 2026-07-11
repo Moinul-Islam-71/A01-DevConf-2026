@@ -157,6 +157,9 @@ nav {
 .speaker__img {
     background-image: url('assets/andrej.png');
 
-    height: 250px;
+    height: 15.625rem;
     width: 100%;
+
+    background-size: cover;
+    background-position: center;
 }
