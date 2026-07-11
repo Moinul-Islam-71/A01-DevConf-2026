@@ -132,3 +132,28 @@ nav {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
+.speakers__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+
+    padding: 3rem 3.47rem;
+
+    font-family: "Inter", sans-serif;
+}
+
+.speakers__section h2 {
+    font-size: 3.5rem;
+}
+
+.speaker {
+    width: 24rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); 
+}
+
+.speaker__img {
+    background-image: url('assets/andrej.png');
+}
