@@ -175,6 +175,15 @@ nav {
 #andrej__img {
     background-image: url('assets/andrej.png');
 }
+#demmis__img {
+    background-image: url('assets/demis.png');
+}
+#gary__img {
+    background-image: url('assets/gary.png');
+}
+#mustafa__img {
+    background-image: url('assets/mustafa.png');
+}
 
 .card__body {
     margin: 0.75rem;
