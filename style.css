@@ -352,3 +352,48 @@ nav {
     color: #0D1B2A;
     border: 2.5px solid #0D1B2A; 
 }
+
+
+.site-footer {
+  background-color: #0b1523; 
+  padding: 2.5rem 1.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.site-footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+
+.site-footer__copyright {
+  color: #64748b; 
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+
+.site-footer__links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+
+.site-footer__link {
+  color: #64748b;
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+
+.site-footer__link:hover {
+  color: #94a3b8; 
+}
