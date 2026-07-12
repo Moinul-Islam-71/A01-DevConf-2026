@@ -7,7 +7,7 @@
 
 nav {
     position: sticky;
-    background: rgb(245, 242, 242);
+    background: rgb(255, 255, 255);
     top: 0;
     padding: 1.46rem 0;
     z-index: 50;
@@ -152,7 +152,9 @@ nav {
 
 .speakers {
     display: flex;
-    gap: 2rem;
+
+    width: 100%;
+    max-width: 1150px;
 
     flex-wrap: wrap;
     justify-content: center;
@@ -163,7 +165,10 @@ nav {
 }
 
 .speaker {
-    width: 24rem;
+    width: calc(50% - 1rem); /* taken help from AI for responsive width calculation */
+    min-width: 280px;
+
+
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
 
 
