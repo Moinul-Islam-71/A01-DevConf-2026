@@ -52,7 +52,9 @@ project/
 │
 ├── assets/
 ├── ui/
+├── DevConf2026.fig
 ├── index.html
+├── PROMPTS.md
 ├── style.css
 └── README.md
 ```
